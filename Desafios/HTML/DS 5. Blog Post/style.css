@@ -1,0 +1,24 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.block-image {
+    max-width: 400px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul a {
+    margin: 5px;
+}
+
+.block-image img {
+    width: 400px;
+}
+
+.block-image blockquote {
+    text-align: center;
+}

@@ -1,0 +1,130 @@
+* {
+	text-decoration: none;
+}
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1f1;
+}
+#page-container {
+	margin: 1rem;
+	position: relative;
+	min-height: 100vh;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+	padding: 1rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+	main section {
+	padding: 20px;
+	border-radius: 10px;
+}
+		.bloco-img {
+	display: flex;
+	justify-content: center;
+}
+			.bloco-img img {
+	max-width: 100%;
+	margin-bottom: 10px;
+	height: 100%;
+	border-radius: 10px;
+	transition: 0.5s ease-in-out;
+	box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+}
+			.bloco-img img:hover {
+	transition: 0.5s ease-in;
+	filter: blur(5px);
+}
+		.bloco-text p {
+	color: #7D7987;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	font-size: clamp(0.50em, 1em + 3vw, 1em);
+	line-height: 1.6;
+}
+			.bloco-text p .yellow {
+	color: #F90;
+	font-weight: 700;
+}
+			.bloco-text p .black {
+	color: #7D7987;
+	font-weight: 700;
+}
+			.bloco-text-1 {
+	display: flex;
+	justify-content: center;
+}
+				.bloco-text-1 p {
+	color: #000;
+	font-size: clamp(1.9em, 1em + 3vw, 1em);
+	line-height: 120%;
+	margin-bottom: -0.5px;
+}
+			.bloco-text-2 p {
+	margin-top: 40px;
+}
+
+footer {
+	display: flex;
+	height: 2.5rem; 
+	padding: 20px;
+	align-items: self-end;
+	justify-content: center;
+}
+	.footer-container {
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+		.social-media {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	line-height: 110%;
+}
+			.social-media a {
+	display: contents;
+	width: 0px;
+	height: 0px;
+	color: hsl(36deg 100% 65%);
+	margin-right: 1rem;
+	font-weight: 700;
+	font-size: clamp(1em, 1em + 3vw, 1em);
+	transition: 0.2s ease-in;
+}
+			.social-media a:hover {
+	color: #F90;
+	transition: 0.2s ease-in;
+}
+			.social-media a::after {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-bottom: 4px solid transparent;
+	transition: .9s;
+	background-color: #fff;
+	display: block;
+}
+			.social-media a:hover::after {
+	width: 100%;
+	height: 0px;
+	padding: 0px;
+	border-bottom: 4px solid #F90;
+	transition: .9s;
+}
+		.divisor {
+	padding-right: 10px;
+	margin: 1px;
+}
+.bloco-svg {
+	bottom: -30px;
+	position: absolute;
+	right: -20px;
+}
