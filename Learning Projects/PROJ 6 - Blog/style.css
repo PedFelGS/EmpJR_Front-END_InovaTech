@@ -113,14 +113,14 @@ article li .block-image {
 }
 
 article .block-content {
-  max-width: 215px;
+  max-width: 13.43rem;
   width: 100%;
   margin-left: 1rem;
 }
 
 article .block-content h3 {
   font-weight: 700;
-  margin-bottom: 13px;
+  margin-bottom: 	0.81rem;
   color: #000;
   font-size: 1.12rem;
 }
@@ -151,7 +151,7 @@ footer {
     margin: 2.12rem 0 0 0;
 	}
   section header, .content, article header {
-    margin: 1.93rem 22px 22px 22px !important;
+    margin: 1.93rem 1.37rem 1.37rem 1.37rem !important;
 }
   section header {
     flex-wrap: wrap;
