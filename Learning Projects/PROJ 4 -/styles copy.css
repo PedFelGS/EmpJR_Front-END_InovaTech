@@ -15,8 +15,8 @@ body {
 	position: relative;
 	min-height: 100vh;
 	background-color: #f8f8f8;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 0.62rem;
+	box-shadow: 0 0 0.62rem rgba(0, 0, 0, 0.1);
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 
 main section {
 	padding: 20px;
-	border-radius: 10px;
+	border-radius: 0.62rem;
 }
 
 /* Estilização para imagens na seção main */
@@ -37,11 +37,11 @@ main section {
 }
 .bloco-img img {
 	max-width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 0.62rem;
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 0.62rem;
 	transition: 0.5s ease-in-out;
-	box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+	box-shadow: 2px 2px 0.62rem rgb(0 0 0 / 10%);
 }
 
 .bloco-img img:hover {
@@ -71,7 +71,7 @@ main .bloco-text-1 p {
 }
 
 main .bloco-text-2 p {
-	margin-top: 40px;
+	margin-top: 2.5em;
 }
 main .bloco-text .yellow {
 	color: #F90;
@@ -139,7 +139,7 @@ footer .social-media a:hover::after {
 }
 
 .divisor {
-	padding-right: 10px;
+	padding-right: 0.62rem;
 	margin: 1px;
 }
 
@@ -181,22 +181,22 @@ section.home .content h2,
 	main .bloco-svg {
 	display: flex;
 	max-width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 0.62rem;
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 0.62rem;
 	transition: 0.5s ease-in-out;
-	box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+	box-shadow: 2px 2px 0.62rem rgb(0 0 0 / 10%);
 }
 
 main .bloco-svg svg {
 	float: left;
 	position: absolute;
 	max-width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 0.62rem;
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 0.62rem;
 	transition: 0.5s ease-in-out;
-	box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+	box-shadow: 2px 2px 0.62rem rgb(0 0 0 / 10%);
 }
 
 .bloco-svg {

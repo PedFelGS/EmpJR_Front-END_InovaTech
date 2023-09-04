@@ -22,7 +22,7 @@ main {
 
 main section .container {
 	margin: 1.25rem 0;
-	max-width: 326px;
+	max-width: 20.37rem;
 	width: 100%;
 }
 
@@ -48,7 +48,7 @@ main section .container {
 }
 
 .block-image .image img {
-    border-radius: 1000px;
+    border-radius: 62.5rem;
     padding: 4px;
 	border: 3px solid #1C2333;
 }

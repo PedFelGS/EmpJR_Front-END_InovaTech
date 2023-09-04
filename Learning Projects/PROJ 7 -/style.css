@@ -1,56 +1,67 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body header {
-  background-color: red;
+  font-family: Mulish;
+  text-decoration: none;
+  border: none;
 }
 
 nav {
-  padding: 12px 112px;
-  background-color: blue;
+  padding: 0.75rem 7rem;
+  background-color: #065E7C;
 }
 
 .nav-bar {
   display: flex;
-  background-color: yellow;
   align-items: center;
   justify-content: center;
 }
 
 .nav-bar .block-logo {
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border-radius: 1000px;
+  max-width: 2.5rem;
+  padding: 0.5rem;
+  background-color: #F4FCFF;
+  border-radius: 62.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 1.56rem;
 }
 
 .nav-bar .block-profile {
-  width: 42px;
+  width: 2.62rem;
+  margin-left: 1.56rem;
 }
 
 .nav-bar .search {
-  background-color: green;
-  margin: 0 25px 0 25px;
+  display: contents;
+  max-width: 67.68rem;
 }
 
 .nav-bar .search input {
   box-sizing: border-box;
-  max-width: 100%; /* Altere para 100% para que o elemento input respeite a largura máxima do seu contêiner */
+  max-width: 67.68rem; /* */
   width: 100%;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.20);
+  color: #FFF;
+  display: flex;
+  padding: 0.75rem 1rem 0.75rem 0.87rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.nav-bar .search input::placeholder {
+  color: #FFF;
 }
 
 main {
-  margin: 44px 109px 39px 109px;
+  margin: 2.75rem 6.81rem 2.43rem 6.81rem;
   display: flex;
 }
 
 section {
-  width: 800px;
+  max-width: 50rem;
 }
 
 section header {
@@ -61,31 +72,95 @@ section header {
   margin-bottom: 2rem;
 }
 
+section img {
+  width: 100%;
+}
+
+section header h2 {
+  color:#202024;
+}
+
 section header .block-actions {
   display: flex;
 }
 
+section header .block-actions .block-like-deslike {
+  width: 1rem;
+  display: flex;
+  padding: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 	62.5rem;
+  background: var(--brand-colors-explorer-dark, #065E7C);
+  margin-left: 0.75rem;
+}
+
 article {
-  margin: 0 34px 0 34px;
-  max-width: 384px;
+  margin: 0 2.12rem 0 2.12rem;
+  max-width: 24rem;
 }
 
 article li {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 2rem 0 2rem 0;
 }
 
 article li .block-image {
-  max-width: 151px;
+  max-width: 9.43rem;
   width: 100%;
 }
 
 article .block-content {
   max-width: 215px;
+  width: 100%;
   margin-left: 1rem;
+}
+
+article .block-content h3 {
+  font-weight: 700;
+  margin-bottom: 13px;
+  color: #000;
+  font-size: 1.12rem;
+}
+
+article .block-content p {
+  font-size: 0.87rem;
 }
 
 footer {
   background: #387E96;
-  padding: 26px;
+  padding: 1.62rem;
+}
+
+footer {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 760px) {
+	main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    margin: 0 !important;
+	}
+	article {	
+    margin: 2.12rem 0 0 0;
+	}
+  section header, .content, article header {
+    margin: 1.93rem 22px 22px 22px !important;
+}
+  section header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  section header .block-actions .block-like-deslike {
+    margin: 0 0.75rem 0 0;
+  }
+  .nav-bar .search input {
+    width: 13.18rem;
+  }
 }
