@@ -100,6 +100,11 @@ article {
   max-width: 24rem;
 }
 
+article .content {
+  display: grid; /**/
+  grid-template-columns: repeat(1, 384px); /**/
+}
+
 article li {
   display: flex;
   justify-content: center;
@@ -148,8 +153,11 @@ footer {
     margin: 0 !important;
 	}
 	article {	
-    margin: 2.12rem 0 0 0;
+    margin: 2.12rem auto 0 auto;
 	}
+  article .content {
+    display: block; /**/
+  }
   section header, .content, article header {
     margin: 1.93rem 1.37rem 1.37rem 1.37rem !important;
 }
