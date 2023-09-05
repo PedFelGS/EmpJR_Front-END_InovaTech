@@ -9,7 +9,7 @@
 - <details> <summary>Desafios Explorer</summary>
     
   - [ ] Página para a captação de leads ou newsletter. [`README`](https://github.com/PedFelGS/EmpJR_Front-END_InovaTech/tree/master/Learning%20Projects/PROJ%205%20-%20Newsletter)
-  - [ ] Blog de Gatos [`README`](https://github.com/PedFelGS/EmpJR_Front-END_InovaTech/tree/master/Learning%20Projects/PROJ%206%20-%20Blog)
+  - [ ] Blog de Gatos [`README`](https://github.com/PedFelGS/EmpJR_Front-END_InovaTech/tree/master/Learning%20Projects/PROJ%206%20-%20Blog) [`View`](https://pedfelgs-proj6-blog.netlify.app/)
 
   ***
 
