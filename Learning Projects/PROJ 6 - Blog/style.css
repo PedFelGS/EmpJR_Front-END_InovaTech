@@ -58,6 +58,7 @@ nav {
 main {
   margin: 2.75rem 6.81rem 2.43rem 6.81rem;
   display: flex;
+  justify-content: center;
 }
 
 section {
@@ -102,7 +103,7 @@ article {
 
 article .content {
   display: grid; /**/
-  grid-template-columns: repeat(1, 384px); /**/
+  grid-template-columns: repeat(1, 24rem); /**/
 }
 
 article li {
@@ -153,10 +154,14 @@ footer {
     margin: 0 !important;
 	}
 	article {	
-    margin: 2.12rem auto 0 auto;
+    margin: 2.12rem 0;
+    max-width: max-content;
 	}
   article .content {
     display: block; /**/
+  }
+  article .content .block-content {
+    max-width: none;
   }
   section header, .content, article header {
     margin: 1.93rem 1.37rem 1.37rem 1.37rem !important;
@@ -168,7 +173,5 @@ footer {
   section header .block-actions .block-like-deslike {
     margin: 0 0.75rem 0 0;
   }
-  .nav-bar .search input {
-    width: 13.18rem;
-  }
+
 }
